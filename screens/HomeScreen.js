@@ -1,2 +1,25 @@
-import { View, Text } from 'react-native';
-export default function Example() { return <View><Text>Screen</Text></View>; }
+import { View, Button, StyleSheet } from 'react-native';
+
+export default function HomeScreen({ navigation }) {
+    return (
+        <View style={styles.container}>
+            <Button
+                title="Camera & Gallery"
+                onPress={() => navigation.navigate('Camera')}
+            />
+            <Button
+                title="Location"
+                onPress={() => navigation.navigate('Location')}
+            />
+        </View>
+    );
+}
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        gap: 16,
+        justifyContent: 'center',
+        padding: 20,
+    },
+});
