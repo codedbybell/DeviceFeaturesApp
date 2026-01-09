@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     magicButton: {
-        backgroundColor: '#C7CEEA', // Pastel Mor/Mavi
+        backgroundColor: '#C7CEEA',
         paddingVertical: 18,
         paddingHorizontal: 40,
         borderRadius: 50,
@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
     infoCard: {
-        backgroundColor: 'rgba(255, 255, 255, 0.8)', // Yarı saydam beyaz
+        backgroundColor: 'rgba(255, 255, 255, 0.8)',
         padding: 25,
         borderRadius: 30,
         width: '90%',

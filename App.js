@@ -9,10 +9,30 @@ const Stack = createNativeStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Camera" component={CameraScreen} />
-        <Stack.Screen name="Location" component={LocationScreen} />
+      <Stack.Navigator
+        screenOptions={{
+          headerStyle: { backgroundColor: '#FFB7B2' },
+          headerTintColor: '#fff',
+          headerTitleStyle: { fontWeight: 'bold', fontSize: 20 },
+          headerTitleAlign: 'center',
+          headerShadowVisible: false,
+        }}
+      >
+        <Stack.Screen
+          name="Home"
+          component={HomeScreen}
+          options={{ title: '🏠 Ana Sayfa' }}
+        />
+        <Stack.Screen
+          name="Camera"
+          component={CameraScreen}
+          options={{ title: '📸 Fotoğraf Köşesi' }}
+        />
+        <Stack.Screen
+          name="Location"
+          component={LocationScreen}
+          options={{ title: '📍 Konum Sihri' }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

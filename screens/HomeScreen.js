@@ -4,7 +4,6 @@ import { LinearGradient } from 'expo-linear-gradient';
 export default function HomeScreen({ navigation }) {
     return (
         <LinearGradient
-            // Peri tozu renk geçişi (Soft Pembe -> Soft Yeşil)
             colors={['#FFF0F5', '#E0F8E0']}
             style={styles.container}
         >
@@ -37,14 +36,14 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 28,
         fontWeight: 'bold',
-        color: '#D88A9A', // Koyu pastel pembe
+        color: '#D88A9A',
         marginBottom: 40,
         textShadowColor: 'rgba(255, 192, 203, 0.5)',
         textShadowOffset: { width: 2, height: 2 },
         textShadowRadius: 10,
     },
     fairyButton: {
-        backgroundColor: '#FFB7B2', // Soft Mercan/Pembe
+        backgroundColor: '#FFB7B2',
         paddingVertical: 15,
         paddingHorizontal: 30,
         borderRadius: 30,
@@ -54,10 +53,10 @@ const styles = StyleSheet.create({
         shadowOffset: { width: 0, height: 4 },
         shadowOpacity: 0.1,
         shadowRadius: 5,
-        elevation: 5, // Android gölgesi
+        elevation: 5,
     },
     greenButton: {
-        backgroundColor: '#BCE29E', // Soft Yeşil
+        backgroundColor: '#BCE29E',
     },
     buttonText: {
         color: '#FFF',

@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
         marginBottom: 30,
     },
     softButton: {
-        backgroundColor: '#FFDAC1', // Pastel Şeftali
+        backgroundColor: '#FFDAC1',
         padding: 15,
         borderRadius: 20,
         flex: 1,
@@ -79,10 +79,10 @@ const styles = StyleSheet.create({
         shadowRadius: 10,
     },
     cameraButton: {
-        backgroundColor: '#E2F0CB', // Pastel Limon/Yeşil
+        backgroundColor: '#E2F0CB',
     },
     text: {
-        color: '#5D4037', // Yumuşak kahve tonu (siyah yerine)
+        color: '#5D4037',
         fontWeight: 'bold',
     },
     imageWrapper: {
